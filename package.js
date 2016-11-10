@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
+  api.use('jquery');
   api.use('mizzao:jquery-ui@1.11.4');
   api.addFiles(['src/button.js'], 'client');  
 });

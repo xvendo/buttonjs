@@ -1,6 +1,6 @@
 Package.describe({
   name: 'xvendo:buttonjs',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Implements tagit JQUERY Plugin',
   // URL to the Git repository containing the source code for this package.
@@ -15,5 +15,5 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('jquery');
   api.use('mizzao:jquery-ui@1.11.4');
-  api.addFiles(['src/button.js'], 'client');  
+  api.addFiles(['lib/button.js'], 'client');  
 });

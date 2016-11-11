@@ -1,6 +1,6 @@
 Package.describe({
   name: 'xvendo:buttonjs',
-  version: '1.0.2',
+  version: '1.0.3',
   // Brief, one-line summary of the package.
   summary: 'Implements tagit JQUERY Plugin',
   // URL to the Git repository containing the source code for this package.
